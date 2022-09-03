@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px){
+    .CardContainer{
+        width: 100vw;
+    }
+    .TextSection{
+        width: 100%;
+        height: 45%;
+        padding-top: 0em;
+    }
+    .EmailSection{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .EmailSection input{
+        width: 300px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 0%, 59%);
+        padding: 1em 0;
+        padding-left: 0.8em;
+    }
+    button{
+        width: 300px;
+        margin-top: 0;
+    }
+
+    .Dashboard{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .DashbordImg{
+        width: 100%;
+    }
+    .DashbordImg img{
+        margin-left: 10px;
+        width: 350px;
+    }
+    .Icons{
+        margin-top: 2em ;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+    }
+}
